@@ -102,7 +102,7 @@ services:
               target: /opt/mediacloud/schema/
             - type: bind
               source: ./../postgresql-server/conf/
-              target: /etc/postgresql/11/main/
+              target: /etc/postgresql/12/main/
 
     rabbitmq-server:
         image: dockermediacloud/rabbitmq-server:latest
